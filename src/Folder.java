@@ -12,8 +12,12 @@ public class Folder implements Component{
         this.type = type;
     }
 
-    public void addComponent(Component component){
+    public void add(Component component){
         componentsList.add(component);
+    }
+
+    public void remove(Component component){
+        componentsList.remove(component);
     }
 
     @Override
