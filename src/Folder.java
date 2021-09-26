@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Folder implements Component{
 
-    ArrayList<Component> components = new ArrayList<>();
+    ArrayList<Component> componentsList = new ArrayList<>();
 
     String name, type;
 
@@ -10,6 +10,10 @@ public class Folder implements Component{
     public Folder(String name, String type){
         this.name = name;
         this.type = type;
+    }
+
+    public void addComponent(Component component){
+        componentsList.add(component);
     }
 
     @Override
