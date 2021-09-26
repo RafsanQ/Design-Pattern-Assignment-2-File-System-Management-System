@@ -5,5 +5,9 @@ public class Main {
 
         Folder root = new Folder("Root", "Folder");
         root.singleClick();
+
+        root.add(file1);
+
+        root.doubleClick();
     }
 }

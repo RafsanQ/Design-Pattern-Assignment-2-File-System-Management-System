@@ -27,6 +27,9 @@ public class Folder implements Component{
 
     @Override
     public void doubleClick() {
-
+        System.out.println("\n" + name + " " + type + " is opened.\nContents:");
+        for(int i=0; i<componentsList.size(); i++){
+            componentsList.get(i).singleClick();
+        }
     }
 }
