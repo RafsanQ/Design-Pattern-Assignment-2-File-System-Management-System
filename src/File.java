@@ -11,7 +11,7 @@ public class File implements Component{
 
     @Override
     public void singleClick() {
-
+        System.out.println("Name: " + name + " Type: " + type);
     }
 
     @Override
