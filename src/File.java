@@ -11,11 +11,11 @@ public class File implements Component{
 
     @Override
     public void singleClick() {
-        System.out.println("Name: " + name + " Type: " + type);
+        System.out.println("Name: " + name + ", Type: " + type);
     }
 
     @Override
     public void doubleClick() {
-
+        System.out.println(name + "." + type + " is openned");
     }
 }

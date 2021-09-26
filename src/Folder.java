@@ -14,7 +14,7 @@ public class Folder implements Component{
 
     @Override
     public void singleClick() {
-        System.out.println("Name: " + name + " Type: " + type);
+        System.out.println("Name: " + name + ", Type: " + type);
     }
 
     @Override
